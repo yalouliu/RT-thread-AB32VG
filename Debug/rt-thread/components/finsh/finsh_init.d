@@ -1,0 +1,52 @@
+rt-thread/components/finsh/finsh_init.o: \
+ ../rt-thread/components/finsh/finsh_init.c \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rtconfig_preinc.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtthread.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdebug.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdef.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtlibc.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_stat.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_errno.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_fcntl.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_ioctl.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_dirent.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_signal.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_fdset.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_limits.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_stdio.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtservice.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtm.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh_api.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh_api.h \
+ ../rt-thread/components/finsh/finsh_node.h \
+ ../rt-thread/components/finsh/finsh_vm.h \
+ ../rt-thread/components/finsh/finsh_var.h \
+ ../rt-thread/components/finsh/finsh_parser.h \
+ ../rt-thread/components/finsh/finsh_error.h \
+ ../rt-thread/components/finsh/finsh_heap.h
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rtconfig_preinc.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtthread.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdebug.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdef.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtlibc.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_stat.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_errno.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_fcntl.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_ioctl.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_dirent.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_signal.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_fdset.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_limits.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_stdio.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtservice.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtm.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh_api.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh_api.h:
+../rt-thread/components/finsh/finsh_node.h:
+../rt-thread/components/finsh/finsh_vm.h:
+../rt-thread/components/finsh/finsh_var.h:
+../rt-thread/components/finsh/finsh_parser.h:
+../rt-thread/components/finsh/finsh_error.h:
+../rt-thread/components/finsh/finsh_heap.h:
