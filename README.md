@@ -1,3 +1,8 @@
+
+# AB32VG1 开发进度
+***
+2021.11.27--完成GPIO，USART，ADC以及RGB三色灯的程序验证
+***
 # AB32VG1 骄龙开发板 BSP 说明
 
 ## 简介
@@ -129,7 +134,3 @@ void example_isr(void)
     ...
 }
 ```
-
-## 维护人信息
-
-- [greedyhao](https://github.com/greedyhao)
