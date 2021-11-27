@@ -24,7 +24,7 @@ void RGB_Init(void)
     // 获得led
     Led.LED_R = rt_pin_get("PE.1");
     Led.LED_G = rt_pin_get("PE.4");
-    Led.LED_B = rt_pin_get("PA.2");
+    Led.LED_B = rt_pin_get("PA.1");
     // 设置引脚为输出方式
     rt_pin_mode(Led.LED_R, PIN_MODE_OUTPUT);
     rt_pin_mode(Led.LED_G, PIN_MODE_OUTPUT);
@@ -75,7 +75,7 @@ void RGB_Green(rt_bool_t on)
 }
 static void rgb_thread_entry(void *p)
 {
-    RGB_Init();
+    //RGB_Init();
     while (1)
     {
         rt_thread_mdelay(1000);
@@ -84,6 +84,33 @@ static void rgb_thread_entry(void *p)
         RGB_Green(1);
         rt_thread_mdelay(1000);
         RGB_Red(1);
+    }
+}
+static void rgb_thread_entry_R(void *p)
+{
+    //RGB_Init();
+    while (1)
+    {
+        RGB_Red(1);
+        rt_thread_mdelay(1000);
+    }
+}
+static void rgb_thread_entry_G(void *p)
+{
+    //RGB_Init();
+    while (1)
+    {
+        RGB_Green(1);
+        rt_thread_mdelay(1000);
+    }
+}
+static void rgb_thread_entry_B(void *p)
+{
+    //RGB_Init();
+    while (1)
+    {
+        RGB_Blue(1);
+        rt_thread_mdelay(1000);
     }
 }
 /* static int Thread_RGB(void)
@@ -97,23 +124,84 @@ static void rgb_thread_entry(void *p)
     }
     rt_thread_startup(thread);
 } */
-
+rt_thread_t thread_RGB = RT_NULL;
 static int Thread_RGB(int argc, char *argv[])
 {
-    rt_thread_t thread = RT_NULL;
+
     rt_err_t ret = RT_EOK;
-    thread = rt_thread_create("rgb", rgb_thread_entry, RT_NULL, 512, 10, 10);
-    if (thread == RT_NULL)
+    thread_RGB = rt_thread_create("rgb", rgb_thread_entry, RT_NULL, 512, 10, 10);
+    if (thread_RGB == RT_NULL)
     {
         rt_kprintf("Thread_GRB Init ERROR");
         ret = RT_ERROR;
     }
     else
     {
-        rt_thread_startup(thread);
+        rt_thread_startup(thread_RGB);
     }
+    return ret;
+}
+rt_thread_t thread_R = RT_NULL;
+rt_thread_t thread_G = RT_NULL;
+rt_thread_t thread_B = RT_NULL;
+static int R(void) //int argc, char *argv[]
+{
+
+    rt_err_t ret = RT_EOK;
+    thread_R = rt_thread_create("r", rgb_thread_entry_R, RT_NULL, 512, 11, 100);
+    if (thread_R == RT_NULL)
+    {
+        rt_kprintf("Thread_GRB Init ERROR");
+        ret = RT_ERROR;
+    }
+    else
+    {
+        rt_thread_startup(thread_R);
+    }
+    return ret;
+}
+static int G(void)
+{
+
+    rt_err_t ret = RT_EOK;
+    thread_G = rt_thread_create("g", rgb_thread_entry_G, RT_NULL, 512, 11, 100);
+    if (thread_G == RT_NULL)
+    {
+        rt_kprintf("Thread_GRB Init ERROR");
+        ret = RT_ERROR;
+    }
+    else
+    {
+        rt_thread_startup(thread_G);
+    }
+    return ret;
+}
+static int B(void)
+{
+
+    rt_err_t ret = RT_EOK;
+    thread_B = rt_thread_create("b", rgb_thread_entry_B, RT_NULL, 512, 11, 100);
+    if (thread_B == RT_NULL)
+    {
+        rt_kprintf("Thread_GRB Init ERROR");
+        ret = RT_ERROR;
+    }
+    else
+    {
+        rt_thread_startup(thread_B);
+    }
+    return ret;
+}
+static int RT_delet(int argc, char *argv[])
+{
+    rt_err_t ret = RT_EOK;
+    ret = rt_thread_delete(thread_RGB);
     return ret;
 }
 /* 导出到 msh 命令列表中 */
 MSH_CMD_EXPORT(Thread_RGB, IO device sample);
+MSH_CMD_EXPORT(R, IO device sample);
+MSH_CMD_EXPORT(G, IO device sample);
+MSH_CMD_EXPORT(B, IO device sample);
+MSH_CMD_EXPORT(RT_delet, IO device sample);
 //INIT_APP_EXPORT(Thread_RGB);

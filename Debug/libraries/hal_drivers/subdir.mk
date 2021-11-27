@@ -4,18 +4,24 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../libraries/hal_drivers/drv_adc.c \
 ../libraries/hal_drivers/drv_common.c \
 ../libraries/hal_drivers/drv_gpio.c \
+../libraries/hal_drivers/drv_rtc.c \
 ../libraries/hal_drivers/drv_usart.c 
 
 OBJS += \
+./libraries/hal_drivers/drv_adc.o \
 ./libraries/hal_drivers/drv_common.o \
 ./libraries/hal_drivers/drv_gpio.o \
+./libraries/hal_drivers/drv_rtc.o \
 ./libraries/hal_drivers/drv_usart.o 
 
 C_DEPS += \
+./libraries/hal_drivers/drv_adc.d \
 ./libraries/hal_drivers/drv_common.d \
 ./libraries/hal_drivers/drv_gpio.d \
+./libraries/hal_drivers/drv_rtc.d \
 ./libraries/hal_drivers/drv_usart.d 
 
 

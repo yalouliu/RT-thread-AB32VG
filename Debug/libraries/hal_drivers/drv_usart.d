@@ -45,8 +45,10 @@ libraries/hal_drivers/drv_usart.o: ../libraries/hal_drivers/drv_usart.c \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/pipe.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/poll.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/ringblk_buf.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/rtc.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/serial.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/pin.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/adc.h \
  ../libraries/hal_drivers/drv_usart.h \
  ../libraries/hal_drivers/drv_common.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\libraries\hal_libraries\ab32vg1_hal\include/api_huart.h \
@@ -98,8 +100,10 @@ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\in
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/pipe.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/poll.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/ringblk_buf.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/rtc.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/serial.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/pin.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/adc.h:
 ../libraries/hal_drivers/drv_usart.h:
 ../libraries/hal_drivers/drv_common.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\libraries\hal_libraries\ab32vg1_hal\include/api_huart.h:

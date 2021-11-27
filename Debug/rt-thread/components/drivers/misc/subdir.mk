@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../rt-thread/components/drivers/misc/adc.c \
 ../rt-thread/components/drivers/misc/pin.c 
 
 OBJS += \
+./rt-thread/components/drivers/misc/adc.o \
 ./rt-thread/components/drivers/misc/pin.o 
 
 C_DEPS += \
+./rt-thread/components/drivers/misc/adc.d \
 ./rt-thread/components/drivers/misc/pin.d 
 
 

@@ -27,8 +27,10 @@ rt-thread/components/libc/compilers/common/time.o: \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/pipe.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/poll.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/ringblk_buf.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/rtc.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/serial.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/pin.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/adc.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdbg.h
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rtconfig_preinc.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\libc\compilers\common/sys/time.h:
@@ -57,6 +59,8 @@ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\in
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/pipe.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/poll.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/ringblk_buf.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/rtc.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/serial.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/pin.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/adc.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdbg.h:

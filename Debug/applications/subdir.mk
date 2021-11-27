@@ -4,18 +4,21 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../applications/adc.c \
 ../applications/main.c \
 ../applications/mnt.c \
 ../applications/rgb.c \
 ../applications/task.c 
 
 OBJS += \
+./applications/adc.o \
 ./applications/main.o \
 ./applications/mnt.o \
 ./applications/rgb.o \
 ./applications/task.o 
 
 C_DEPS += \
+./applications/adc.d \
 ./applications/main.d \
 ./applications/mnt.d \
 ./applications/rgb.d \

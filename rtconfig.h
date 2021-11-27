@@ -86,6 +86,8 @@
 #define RT_USING_SERIAL
 #define RT_SERIAL_RB_BUFSZ 64
 #define RT_USING_PIN
+#define RT_USING_ADC
+#define RT_USING_RTC
 
 /* Using USB */
 
@@ -217,6 +219,8 @@
 #define BSP_UART0_FIFO_SIZE 10
 #define BSP_USING_UART1
 #define BSP_UART1_FIFO_SIZE 10
+#define BSP_USING_ADC
+#define BSP_USING_ADC0
 /* end of On-chip Peripheral Drivers */
 
 /* Board extended module Drivers */

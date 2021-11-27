@@ -1,6 +1,7 @@
-rt-thread/components/drivers/src/dataqueue.o: \
- ../rt-thread/components/drivers/src/dataqueue.c \
+rt-thread/components/drivers/rtc/rtc.o: \
+ ../rt-thread/components/drivers/rtc/rtc.c \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rtconfig_preinc.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\libc\compilers\common/sys/time.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtthread.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdebug.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdef.h \
@@ -17,6 +18,8 @@ rt-thread/components/drivers/src/dataqueue.o: \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtservice.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtm.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh_api.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh_api.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/rtdevice.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/ringbuffer.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/completion.h \
@@ -29,9 +32,9 @@ rt-thread/components/drivers/src/dataqueue.o: \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/rtc.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/serial.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/pin.h \
- D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/adc.h \
- D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rthw.h
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/adc.h
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rtconfig_preinc.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\libc\compilers\common/sys/time.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtthread.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdebug.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtdef.h:
@@ -48,6 +51,8 @@ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/libc/libc_std
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtservice.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rtm.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh_api.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\finsh/finsh_api.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/rtdevice.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/ringbuffer.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/completion.h:
@@ -61,4 +66,3 @@ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\in
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/serial.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/pin.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/adc.h:
-D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\include/rthw.h:

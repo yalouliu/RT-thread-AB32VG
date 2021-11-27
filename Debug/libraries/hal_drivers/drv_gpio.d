@@ -28,8 +28,10 @@ libraries/hal_drivers/drv_gpio.o: ../libraries/hal_drivers/drv_gpio.c \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/pipe.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/poll.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/ringblk_buf.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/rtc.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/serial.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/pin.h \
+ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/adc.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\board/board.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\libraries\hal_libraries\bmsis\include/ab32vgx.h \
  D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\libraries\hal_libraries\bmsis\include/ab32vg1.h \
@@ -79,8 +81,10 @@ D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\in
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/pipe.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/poll.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/ipc/ringblk_buf.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/rtc.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/serial.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/pin.h:
+D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\rt-thread\components\drivers\include/drivers/adc.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\board/board.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\libraries\hal_libraries\bmsis\include/ab32vgx.h:
 D\:\myself\RTT\AB32VG1\Program\AB_TEST\UART\uart\libraries\hal_libraries\bmsis\include/ab32vg1.h:
